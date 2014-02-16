@@ -1,0 +1,6 @@
+History.md
+Manifest.txt
+README.md
+Rakefile
+lib/hybook.rb
+lib/hybook/version.rb

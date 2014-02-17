@@ -2,8 +2,8 @@
 
 hybook gem - hypertext book generator
 
-* home  :: [github.com/rubylibs/hybook](https://github.com/rubylibs/hybook)
-* bugs  :: [github.com/rubylibs/hybook/issues](https://github.com/rubylibs/hybook/issues)
+* home  :: [github.com/hybook/hybook](https://github.com/hybook/hybook)
+* bugs  :: [github.com/hybook/hybook/issues](https://github.com/hybook/hybook/issues)
 * gem   :: [rubygems.org/gems/hybook](https://rubygems.org/gems/hybook)
 * rdoc  :: [rubydoc.info/gems/hybook](http://rubydoc.info/gems/hybook)
 
@@ -11,13 +11,25 @@ hybook gem - hypertext book generator
 
 TBD
 
+## Examples in the Real World
+
+- [The Free World Football Almanac](https://github.com/openfootball/book)
+- [The Free World Beer Book](https://github.com/openbeer/book)
+- [The Free World Fact Book](https://github.com/openmundi/book)
+
+
 ## Alternatives
 
-### EPub, Mobi Kindle Book Generator
+### EPUB, MOBI (Kindle) Book Generator
+
+#### Ruby
 
 - [Kitabu](https://github.com/fnando/kitabu)
 - [Bookshop](https://github.com/blueheadpublishing/bookshop)
 
+#### Haskell
+
+- [Pandoc](http://johnmacfarlane.net/pandoc)
 
 
 ## License

@@ -67,7 +67,7 @@ and types
 - `phantom.js` Renderer
 
 
-## Examples in the Real World
+## Real World Book Examples
 
 - [The Free World Football Almanac](https://github.com/openfootball/book)
 - [The Free World Beer Book](https://github.com/openbeer/book)
@@ -87,7 +87,9 @@ and types
 - [review](https://github.com/kmuto/review) - by Kenshi Muto (aka kmuto)
 - [gepub](https://github.com/skoji/gepub) - by Satoshi Kojima (aka skoji)
 - [peregrin](https://github.com/joseph/peregrin) - by Joseph Pearson
-<!-- experimental -->
+
+<!-- experimental
+  -->
 
 - [bookie gem](https://github.com/sandal/bookie) - by Gregory Brown (aka sandal); experimental
 - [penny](https://github.com/peterc/penny) - by Peter Cooper (aka peterc); experimental

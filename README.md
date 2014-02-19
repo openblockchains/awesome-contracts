@@ -32,38 +32,39 @@ and types
 ## Non-Goals
 
 - Hyper Book is **not** a static site generator / server.
+  => Use your static site generator of choice (e.g. Jekyll and friends)
+  to convert the generated pages into a complete hypertext book or web site.
+
 - Hyper Book is **not** a HTML to PDF converter.
-- Hyper Book is **not** a EPUB generator or checker. 
+  => Use your HTML to PDF converter of choice (e.g. print ot PDF, `wkhtmltopdf`, etc.).
+
+- Hyper Book is **not** a EPUB generator or checker.
+  => Use your EPUB generator or checker of choice.
+
 - Hyper Book is **not** a MOBI generator.
-
-
-1) You can use your static site generator of choice (e.g. Jekyll and friends)
-to convert the generated pages in a complete hypertext book or web site.
-
-2) You can use your HTML to PDF converter of choice.
-
-3) You can use your EPUB generator or checker of choice.
-
-4) You can use your MOBI genrator of choice.
-
+  => Use your MOBI generator of choice (e.g. `kindlegen`, etc.).
 
 
 
 ## Building Blocks
 
-- Jekyll -- static site generator
-- Markdown -- Markdown helpers
-- Kramdown -- Markdown converter
-- `textutils` -- Text filters n helpers
-- `pakman`  -- Template Pack(age) manager
+- [`textutils` gem](https://github.com/rubylibs/textutils) -- Text filters n helpers
+- [`markdown` gem](https://github.com/rubylibs/markdown) -- Markdown helpers
+- [`pakman` gem](https://github.com/rubylibs/pakman)  -- Template Pack(age) manager
+- [`props` gem](https://github.com/rubylibs/props) -- Setting Hierachies (Commandline, User, Home, Defaults, etc.)
 
+
+<!-- more -->
+
+- Jekyll -- static site generator
+- `kramdown` -- Markdown converter
 
 
 ## Hypertext Markup (HTML) to PDF Conversion Options
 
 - Use Google Chrome (Print to PDF)
 - `wkhtmltopdf`
-- phantom.js Renderer
+- `phantom.js` Renderer
 
 
 ## Examples in the Real World
@@ -79,10 +80,18 @@ to convert the generated pages in a complete hypertext book or web site.
 
 #### Ruby
 
-- [Kitabu](https://github.com/fnando/kitabu)  - EPUB, MOBI, PDF
-- [Bookshop](https://github.com/blueheadpublishing/bookshop)  - EPUB, MOBI, PDF
+- [kitabu gem](https://github.com/fnando/kitabu)  - EPUB, MOBI, PDF
+- [bookshop gem](https://github.com/blueheadpublishing/bookshop)  - EPUB, MOBI, PDF
+- [eeepub, eeepub-with-cover-support ](https://github.com/jugyo/eeepub) - by jugyo
+- [git-scribe](https://github.com/schacon/git-scribe) - by Scott Chacon (aka schacon)
+- [review](https://github.com/kmuto/review) - by Kenshi Muto (aka kmuto)
+- [gepub](https://github.com/skoji/gepub) - by Satoshi Kojima (aka skoji)
+- [peregrin](https://github.com/joseph/peregrin) - by Joseph Pearson
+<!-- experimental -->
 
-
+- [bookie gem](https://github.com/sandal/bookie) - by Gregory Brown (aka sandal); experimental
+- [penny](https://github.com/peterc/penny) - by Peter Cooper (aka peterc); experimental
+- [eeepub3](https://github.com/bubaz/eeepub3) - by Sergey (aka bubaz)
 
 
 #### Haskell

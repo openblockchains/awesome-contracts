@@ -2,6 +2,11 @@
 
 require 'hybook/version'  # let it always go first
 
+require 'hybook/type/album'
+require 'hybook/type/picture'
+require 'hybook/type/section'
+
+
 
 module HyBook
 

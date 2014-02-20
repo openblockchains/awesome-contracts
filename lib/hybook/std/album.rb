@@ -49,32 +49,7 @@ module HyBook
 
   end # module AblumHelper
 
-  module AlbumBuilder
-    include AlbumHelper
 
-    def build_album_from_folder( name, root, opts={} )
-
-      album = HyBook::Album.create_from_folder( root, opts )
-
-      size = opts[:size]
-      puts "[album] size: #{size}"    # NOTE: for now required opt
-
-      # e.g. will create 24.md, 36.md etc.
-      ###
-      ### FIX: pass in frontmatter as opts ?
-      ##
-      ## TODO: move TextUtils::Page.create out of this method (lets you configure frontmatter etc. ??
-
-      TextUtils::Page.create( name, frontmatter: {
-                                      layout: 'album',
-                                      title: album.title,
-                                      permalink: "/#{size}.html" } ) do |page|
-        page.write render_album( album, opts )
-      end
-    end
-
-  end # module AlbumBuilder
-
-  # make builder available as class methods e.g. HyBook.build_album_from_folder etc.
-  extend AlbumBuilder
+  # make helpers available as class methods for now e.g. HyBook.render_album etc.
+  extend AlbumHelper
 end # module HyBook

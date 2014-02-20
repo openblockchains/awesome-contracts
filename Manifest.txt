@@ -3,7 +3,9 @@ Manifest.txt
 README.md
 Rakefile
 lib/hybook.rb
+lib/hybook/std/album.rb
 lib/hybook/type/album.rb
 lib/hybook/type/picture.rb
 lib/hybook/type/section.rb
 lib/hybook/version.rb
+templates/album.md

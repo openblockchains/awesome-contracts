@@ -31,17 +31,17 @@ and types
 
 ## Non-Goals
 
-- Hyper Book is **not** a static site generator / server.
+- Hyper Book is **NOT** a static site generator / server.
   => Use your static site generator of choice (e.g. Jekyll and friends)
   to convert the generated pages into a complete hypertext book or web site.
 
-- Hyper Book is **not** a HTML to PDF converter.
+- Hyper Book is **NOT** a HTML to PDF converter.
   => Use your HTML to PDF converter of choice (e.g. print ot PDF, `wkhtmltopdf`, etc.).
 
-- Hyper Book is **not** a EPUB generator or checker.
+- Hyper Book is **NOT** a EPUB generator or checker.
   => Use your EPUB generator or checker of choice.
 
-- Hyper Book is **not** a MOBI generator.
+- Hyper Book is **NOT** a MOBI generator.
   => Use your MOBI generator of choice (e.g. `kindlegen`, etc.).
 
 

@@ -5,11 +5,13 @@ module HyBook
 
     def render_pictures( pics, opts )
       buf = ''
-      buf << 'I '      # NOTE: cannot use | used by markdown for tables (or just escape???)
-      pics.each do |pic|
+
+      ### sort by title for now
+      pics.sort { |l,r| l.title <=> r.title }.each_with_index do |pic,i|
+        buf << ' • ' if i > 0
         buf << render_picture( pic, opts )
-        buf << ' I '
       end
+      
       buf
     end
 

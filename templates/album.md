@@ -3,7 +3,8 @@
 
 {% album.sections.each do |section| %}
 
-#### {{ section.title }} ({{ section.pictures.size }})
+#### {{ section.title }} _({{ section.pictures.size }})_{: .count}
 
   {{ render_pictures( section.pictures, opts ) }}
+
 {% end %}

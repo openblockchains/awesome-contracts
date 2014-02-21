@@ -15,12 +15,12 @@ module HyBook
       buf
     end
 
+
     def render_picture( pic, opts )
 
-      ## FIX: add pics_root or assets_root or similar as opt !!!!!!!
-      ##   do NOT hard code
+      size        = opts[:size]
+      assets_path = opts[:assets_path] || 'vendor/assets/images/logos'
 
-      size = opts[:size]
       ## puts "[picture] size=#{size}"    # NOTE: opts[:size] required for now!!!
 
       extname      = File.extname( pic.path )
@@ -32,7 +32,7 @@ module HyBook
 
       ## puts "path: #{path}, basename_in: #{basename_in}, basename_out: #{basename_out}, extname: #{extname}"
 
-      path  = "vendor/assets/images/logos/#{size}x#{size}/#{basename_out}.png"
+      path  = "#{assets_path}/#{size}x#{size}/#{basename_out}.png"
 
       buf = ''
       buf << "_#{pic.title}_{: .key} "

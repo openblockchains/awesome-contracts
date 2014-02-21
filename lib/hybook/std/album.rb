@@ -22,6 +22,10 @@ module HyBook
       assets_path = opts[:assets_path] || 'vendor/assets/images/logos'
 
       ## puts "[picture] size=#{size}"    # NOTE: opts[:size] required for now!!!
+      ## puts "[picture] assets_path=#{assets_path}"
+      ##
+      ## puts "opts:"
+      ## pp opts
 
       extname      = File.extname( pic.path )
       basename_in  = File.basename( pic.path, extname )   # NB: remove extname (that is, suffix e.g. .png,.jpg,.gif etc.)

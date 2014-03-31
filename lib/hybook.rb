@@ -32,7 +32,7 @@ require 'hybook/builder/album'
 
 ## writers
 
-require 'hybook/builder/jekyll'
+require 'hybook/writer/jekyll'
 
 
 

@@ -12,3 +12,5 @@ lib/hybook/type/section.rb
 lib/hybook/version.rb
 lib/hybook/writer/jekyll.rb
 templates/album.md
+test/helper.rb
+test/test_basics.rb

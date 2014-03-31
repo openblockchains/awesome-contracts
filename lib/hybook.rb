@@ -25,6 +25,16 @@ require 'hybook/type/section'
 
 require 'hybook/std/album'
 
+## builders
+
+require 'hybook/builder/book'
+require 'hybook/builder/album'
+
+## writers
+
+require 'hybook/builder/jekyll'
+
+
 
 module HyBook
 

@@ -12,6 +12,11 @@ class Album
     @sections  = []      # sections (for pictures)
   end
 
+
+  ###
+  ## fix: move to album builder
+  
+
   def self.create_from_folder( root, opts={} )
     dirs = Dir[ "#{root}/**/" ]  ## get all folders n subfolder
     ## pp dirs

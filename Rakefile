@@ -15,9 +15,20 @@ Hoe.spec 'hybook' do
 
   # switch extension to .markdown for gihub formatting
   self.readme_file  = 'README.md'
-  self.history_file = 'History.md'
+  self.history_file = 'HISTORY.md'
 
   self.licenses = ['Public Domain']
+
+  self.extra_deps = [
+    ['props'],         # settings / prop(ertie)s / env / INI
+    ['logutils'],     # logging
+    ['textutils', '>= 0.9.4'], # e.g.  >= 0.6 && <= 1.0  ## will include logutils, props
+    ['markdown'],  # markdown helper (e.g. link_to etc.)
+
+     ## 3rd party
+    ['gli', '>= 2.9'],
+    ['activesupport'] 
+  ]
 
   self.spec_extras = {
    :required_ruby_version => '>= 1.9.2'

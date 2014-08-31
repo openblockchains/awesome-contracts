@@ -1,4 +1,4 @@
-# hybook - Hyper Book (H8)
+# hybook - Hyper Book (H9)
 
 hybook gem - hypertext book generator
 
@@ -10,7 +10,7 @@ hybook gem - hypertext book generator
 
 ## Usage
 
-Hyper Book (H8) generates pages from plain text wiki-style templates
+Hyper Book (H9) generates pages from plain text wiki-style templates
 for a hypertext book in two versions,
 that is, a single-page version and a multi-page version.
 

@@ -36,12 +36,12 @@ class BookBuilder
     @inline    = opts[:inline ] == true ? true : false   # all-in-one page version or multi-page?
 
     @title     = opts[:title]  || 'Book Title Here'
-    @layout    = opts[:layout] || 'book'
+    @layout    = opts[:layout] || 'default'
 
 
     ## if @inline create all-in-one book(.html) page
     if inline?
-      path = "#{pages_dir}/book.md"      
+      path = "#{pages_dir}/book.md"
       puts "[book] create all-in-one book page (#{path})"
 
       ## add frontmatter

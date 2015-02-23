@@ -22,16 +22,16 @@ Hoe.spec 'hybook' do
   self.extra_deps = [
     ['props'],         # settings / prop(ertie)s / env / INI
     ['logutils'],     # logging
-    ['textutils', '>= 0.9.4'], # e.g.  >= 0.6 && <= 1.0  ## will include logutils, props
+    ['textutils'],    # e.g.  >= 0.6 && <= 1.0  ## will include logutils, props
     ['markdown'],  # markdown helper (e.g. link_to etc.)
 
-     ## 3rd party
-    ['gli', '>= 2.9'],
-    ['activesupport'] 
+    ## 3rd party
+    ['gli'],
+    ['activesupport']
   ]
 
   self.spec_extras = {
-   :required_ruby_version => '>= 1.9.2'
+    required_ruby_version: '>= 1.9.2'
   }
 
 end

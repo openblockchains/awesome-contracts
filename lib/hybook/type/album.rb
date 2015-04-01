@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module HyBook
+module Hybook
 
 
 class Album
@@ -59,4 +59,4 @@ class Album
 end  # class Album
 
 
-end # module HyBook
+end # module Hybook

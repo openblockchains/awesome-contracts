@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module HyBook
+module Hybook
 
 
 class Section
@@ -14,4 +14,4 @@ class Section
 end
 
 
-end # module HyBook
+end # module Hybook

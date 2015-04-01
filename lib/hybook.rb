@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 
 ############
 # stdlibs
@@ -11,7 +13,7 @@ require 'pp'
 require 'textutils'
 
 
-####################3
+#####################
 # our own code
 
 require 'hybook/version'  # let it always go first
@@ -24,6 +26,8 @@ require 'hybook/type/section'
 # builtin std helpers, renderers n builders
 
 require 'hybook/std/album'
+require 'hybook/helpers/markdown'
+require 'hybook/helpers/misc'
 
 ## builders
 
@@ -34,26 +38,20 @@ require 'hybook/builder/album'
 
 require 'hybook/writer/jekyll'
 
+## (book)press
+require 'hybook/press/press'
+require 'hybook/press/config'
+require 'hybook/press/world'
+require 'hybook/press/football'
+require 'hybook/press/beer'
 
 
-module HyBook
-
-  def self.banner
-    "hybook #{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
-  end
-
-  def self.root
-    "#{File.expand_path( File.dirname(File.dirname(__FILE__)) )}"
-  end
-  
-  def self.templates_path
-    "#{root}/templates"
-  end
-
-end  # module HyBook
 
 
-puts HyBook.banner    # say hello
-puts "[hybook] root: #{HyBook.root}"
-puts "[hybook] templates_path: #{HyBook.templates_path}"
 
+# say hello
+if $DEBUG || (defined?($RUBYLIBS_DEBUG) && $RUBYLIBS_DEBUG)
+  puts Hybook.banner
+  puts "[hybook] root: #{Hybook.root}"
+  puts "[hybook] templates_path: #{Hybook.templates_path}"
+end

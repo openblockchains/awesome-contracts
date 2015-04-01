@@ -3,7 +3,7 @@ require './lib/hybook/version.rb'
 
 Hoe.spec 'hybook' do
 
-  self.version = HyBook::VERSION
+  self.version = Hybook::VERSION
 
   self.summary = 'hybook - hypertext book generator'
   self.description = summary
@@ -24,6 +24,8 @@ Hoe.spec 'hybook' do
     ['logutils'],     # logging
     ['textutils'],    # e.g.  >= 0.6 && <= 1.0  ## will include logutils, props
     ['markdown'],  # markdown helper (e.g. link_to etc.)
+    ['bookfile'],   ## used by (book)press
+    ['datafile'],   ## used by (book)press
 
     ## 3rd party
     ['gli'],

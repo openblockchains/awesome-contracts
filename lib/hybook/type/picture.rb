@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module HyBook
+module Hybook
 
 
 class Picture
@@ -14,4 +14,4 @@ class Picture
 end
 
 
-end # module HyBook
+end # module Hybook

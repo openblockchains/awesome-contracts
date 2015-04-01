@@ -3,14 +3,14 @@
 
 require 'helper'
 
-class TestBasics  < MiniTest::Unit::TestCase
+class TestBasics < MiniTest::Test
 
   def test_banner
 
-    banner = "hybook #{HyBook::VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
-    
-    assert_equal banner, HyBook.banner
-    assert_equal banner, Hybook.banner   ## check module alias
+    banner = "hybook #{Hybook::VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+
+    assert_equal banner, Hybook.banner
+    assert_equal banner, HyBook.banner   ## check module alias
 
   end
 

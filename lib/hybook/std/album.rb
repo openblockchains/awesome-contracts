@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module HyBook
+module Hybook
   module AlbumHelper
 
     def render_pictures( pics, opts )
@@ -49,13 +49,13 @@ module HyBook
       ## TODO/FIX:
       ##  use TextUtils::PageTemplate.read( path ).render( binding ) - one line
 
-      tmpl = File.read_utf8( "#{HyBook.templates_path}/album.md" )
+      tmpl = File.read_utf8( "#{Hybook.templates_path}/album.md" )
       TextUtils::PageTemplate.new( tmpl ).render( binding )
     end
 
   end # module AblumHelper
 
 
-  # make helpers available as class methods for now e.g. HyBook.render_album etc.
+  # make helpers available as class methods for now e.g. Hybook.render_album etc.
   extend AlbumHelper
-end # module HyBook
+end # module Hybook

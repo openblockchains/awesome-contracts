@@ -2,10 +2,10 @@
 
 
 module Hybook
-  VERSION = '0.2.0'
+  VERSION = '0.2.1'
 
   def self.banner
-    "hybook #{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
+    "hybook/#{VERSION} on Ruby #{RUBY_VERSION} (#{RUBY_RELEASE_DATE}) [#{RUBY_PLATFORM}]"
   end
 
   def self.root

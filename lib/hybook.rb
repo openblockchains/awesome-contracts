@@ -38,19 +38,11 @@ require 'hybook/builder/album'
 
 require 'hybook/writer/jekyll'
 
-## (book)press
-require 'hybook/press/press'
-require 'hybook/press/config'
-require 'hybook/press/world'
-require 'hybook/press/football'
-require 'hybook/press/beer'
-
-
 
 
 
 # say hello
-if $DEBUG || (defined?($RUBYLIBS_DEBUG) && $RUBYLIBS_DEBUG)
+if defined?($RUBYLIBS_DEBUG) && $RUBYLIBS_DEBUG
   puts Hybook.banner
   puts "[hybook] root: #{Hybook.root}"
   puts "[hybook] templates_path: #{Hybook.templates_path}"

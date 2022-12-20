@@ -1,12 +1,11 @@
-# Hyper Book (H9) Gems
+#  Awesome (Ethereum) Contracts  / Blockchain Services
 
 
-- [hybook](hybook)   - hypertext book generator
-- [bookman](bookman)  -  yet another book builder
-- [bookfile](bookfile)  - builder for books
+Cache of (etherum) contract ABIs (application binary interfaces)
+and  open source code (if verified / available)
 
 
-
+## Timeline
 
 
 

@@ -2,7 +2,7 @@
 #   parse and pretty print abis
 #
 #  to run use
-#     ruby sandbox/parse.rb
+#    $  ruby sandbox/parse.rb
 
 require 'ethname'
 

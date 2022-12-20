@@ -3,7 +3,7 @@
 
 #
 #  to run use
-#     ruby sandbox/download_code.rb
+#    $ ruby sandbox/download_code.rb
 
 
 $LOAD_PATH.unshift( "../../blockchain/etherscan-lite/lib" )

@@ -3,7 +3,7 @@
 
 #
 #  to run use
-#     ruby sandbox/download_abis.rb
+#    $ ruby sandbox/download_abis.rb
 
 
 $LOAD_PATH.unshift( "../../blockchain/etherscan-lite/lib" )

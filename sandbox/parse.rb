@@ -9,24 +9,23 @@ require 'abidoc'
 
 
 
-paths = Dir.glob( "./abis/*.json" )
-paths[0..3].each do |path|
-  abi = read_json( path )
-  pp abi
-  basename = File.basename( path, File.extname( path ))
+paths = Dir.glob( "./address/**/abi.json" )
+## paths = paths[0..2]
+paths.each do |path|
+  basename = File.basename( File.dirname( path ))
 
-  decls = ABI.parse( abi )
+  data = read_json( path )
+  ## pp data
 
-  buf = "# Contract ABI - #{basename}\n\n"
-  buf <<  decls.pretty_print
-  puts  buf
+  abi = ABI.parse( data )
 
-  write_text( "./abis/#{basename}.md", buf )
+  buf = abi.generate_doc( title: "Contract ABI - #{basename}" )
+  puts buf
+  write_text( "./address/#{basename}/README.md", buf )
 
-  buf =  decls.generate_interface    # solidity interface declarations (source code)
-  write_text( "./abis/#{basename}.sol", buf )
+  buf =  abi.generate_interface    # solidity interface declarations (source code)
+  write_text( "./address/#{basename}/interface.sol", buf )
 end
-
 
 
 

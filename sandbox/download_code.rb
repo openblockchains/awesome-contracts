@@ -53,8 +53,8 @@ delay_in_s = 1
 Ethname.directory.records.each_with_index do |rec,i|
   puts "==> [#{i+1}] #{rec.names.join('|')} @ #{rec.addr} supports #{rec.interfaces.join('|')}..."
 
-  outpath_code = "./code/#{rec.addr}.sol"
-  outpath_meta = "./code/#{rec.addr}.yml"
+  outpath_code = "./address/#{rec.addr}/contract.sol"
+  outpath_meta = "./address/#{rec.addr}/contract.yml"
 
   if File.exist?( outpath_code )
      # already download / found in cache

@@ -20,7 +20,7 @@ delay_in_s = 1
 Ethname.directory.records.each_with_index do |rec,i|
   puts "==> [#{i+1}] #{rec.names.join('|')} @ #{rec.addr} supports #{rec.interfaces.join('|')}..."
 
-  outpath = "./abis/#{rec.addr}.json"
+  outpath = "./address/#{rec.addr}/abi.json"
 
   if File.exist?( outpath )
      # already download / found in cache

@@ -1,8 +1,8 @@
 ###
-#   parse and pretty print abis
+#   generate pretty printed abis / docs
 #
 #  to run use
-#    $  ruby sandbox/parse.rb
+#    $  ruby sandbox/generate.rb
 
 $LOAD_PATH.unshift( "../blockchain/abidoc/lib" )
 require 'abidoc'
@@ -14,10 +14,7 @@ paths = Dir.glob( "./address/**/abi.json" )
 paths.each do |path|
   basename = File.basename( File.dirname( path ))
 
-  data = read_json( path )
-  ## pp data
-
-  abi = ABI.parse( data )
+  abi = ABI.read( path )
 
   buf = abi.generate_doc( title: "Contract ABI - #{basename}" )
   puts buf

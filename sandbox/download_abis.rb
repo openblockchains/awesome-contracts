@@ -6,7 +6,7 @@
 #    $ ruby sandbox/download_abis.rb
 
 
-$LOAD_PATH.unshift( "../../blockchain/etherscan-lite/lib" )
+$LOAD_PATH.unshift( "../blockchain/etherscan-lite/lib" )
 require 'ethname'
 require 'etherscan-lite'
 

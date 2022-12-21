@@ -86,7 +86,7 @@ meta.each do |rec,data|
   date = Time.at( timestamp).utc
 
   tooltip = date.strftime('%b %-d, %Y')
-  buf << %Q{[#{rec.name}](#{rec.addr}  "#{tooltip}")}
+  buf << %Q{[#{rec.name}](address/#{rec.addr}  "#{tooltip}")}
   buf << " · \n"
 end
 
@@ -105,10 +105,10 @@ meta.each do |rec,data|
 
   buf << "###  #{rec.names.join( ' | ')} - #{date.strftime('%b %-d, %Y')}\n\n"
 
-  buf << "contract @ [**#{rec.addr}**](#{rec.addr})"
+  buf << "contract @ [**#{rec.addr}**](address/#{rec.addr})"
   buf << " - [Etherscan](https://etherscan.io/address/#{rec.addr})"
   buf << ", [Bloxy](https://bloxy.info/address/#{rec.addr})"
-  buf << ", [ABIDocs](https://abidocs.dev/contracts/#{rec.addr}))"
+ ## buf << ", [ABIDocs](https://abidocs.dev/contracts/#{rec.addr})"
   buf << "\n\n"
 
 #  buf << "created by [#{creator}](https://etherscan.io/address/#{creator}))"

@@ -1,5 +1,5 @@
 ###
-#   generate pretty printed abis / docs
+#   (re)generate pretty printed abis / docs
 #
 #  to run use
 #    $  ruby sandbox/generate.rb

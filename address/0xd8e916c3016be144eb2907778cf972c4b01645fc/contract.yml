@@ -1,0 +1,12 @@
+---
+ContractName: CryptoPunksTokenUri
+CompilerVersion: v0.8.17+commit.8df45f5f
+OptimizationUsed: '0'
+Runs: '200'
+ConstructorArguments: 00000000000000000000000016f5a35647d6f03d5d3da7b35409d65ba03af3b2
+EVMVersion: Default
+Library: ''
+LicenseType: MIT
+Proxy: '0'
+Implementation: ''
+SwarmSource: ipfs://5a6caaf096215b5015904c51a33c66b810ed5d2af489b09379d2a085f3946fed

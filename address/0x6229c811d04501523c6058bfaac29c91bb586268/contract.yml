@@ -1,0 +1,12 @@
+---
+ContractName: NounsDescriptorV2
+CompilerVersion: v0.8.15+commit.e14f2714
+OptimizationUsed: '1'
+Runs: '10000'
+ConstructorArguments: '00000000000000000000000048a7c62e2560d1336869d6550841222942768c4900000000000000000000000081d94554a4b072bfcd850205f0c79e97c92aab56'
+EVMVersion: Default
+Library: ''
+LicenseType: ''
+Proxy: '0'
+Implementation: ''
+SwarmSource: ''

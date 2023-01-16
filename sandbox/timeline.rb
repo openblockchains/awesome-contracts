@@ -6,6 +6,7 @@
 #    $ ruby sandbox/timeline.rb
 
 
+$LOAD_PATH.unshift( "../blockchain/ethname/lib" )
 $LOAD_PATH.unshift( "../blockchain/etherscan-lite/lib" )
 require 'ethname'
 require 'etherscan-lite'

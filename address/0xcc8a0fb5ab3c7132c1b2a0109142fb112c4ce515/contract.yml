@@ -1,0 +1,12 @@
+---
+ContractName: NounsSeeder
+CompilerVersion: v0.8.6+commit.11564f7e
+OptimizationUsed: '1'
+Runs: '10000'
+ConstructorArguments: ''
+EVMVersion: Default
+Library: ''
+LicenseType: ''
+Proxy: '0'
+Implementation: ''
+SwarmSource: ''

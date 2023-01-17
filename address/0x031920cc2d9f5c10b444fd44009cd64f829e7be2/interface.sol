@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 13 Payable Function(s)
 function freeMintOne() payable ;
 function mintEight() payable ;
@@ -40,7 +37,7 @@ function femaleProbabilities(uint256 _, uint256 _) view  returns (uint256 _);
 function freeMintsAllocatedByDevsCap() view  returns (uint256 _);
 function freeMintsFromPoolRedeemed() view  returns (uint256 _);
 function getApproved(uint256 tokenId) view  returns (address _);
-function getOwnerZunks(address _owner) view  returns (tuple[] _);
+function getOwnerZunks(address _owner) view  returns ((uint256,string)[] _ /* struct CryptoZunks.SerialIdAndTokenRepresentation[] */);
 function getSerialIdTokenRepresentations(uint256[] serialIds) view  returns (string[] _);
 function hasDevSingleMinted() view  returns (bool _);
 function hasRedeemedFreeMintFromPool(address _) view  returns (bool _);

@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(string baseURI);
-
+interface  {
 // 1 Payable Function(s)
 function buyAndWrap(uint256 _rescueOrder) payable  returns (uint256 _);
 
@@ -40,7 +37,7 @@ function owner() view  returns (address _);
 function ownerOf(uint256 _tokenId) view  returns (address _);
 function ownerOfChild(address _childContract, uint256 _childTokenId) view  returns (bytes32 parentTokenOwner, uint256 parentTokenId);
 function paused() view  returns (bool _);
-function rescueOrderLookup() view  returns (address _);
+function rescueOrderLookup() view  returns (address _ /* contract MoonCatOrderLookup */);
 function rootOwnerOf(uint256 _tokenId) view  returns (bytes32 rootOwner);
 function rootOwnerOfChild(address _childContract, uint256 _childTokenId) view  returns (bytes32 rootOwner);
 function supportsInterface(bytes4 interfaceId) view  returns (bool _);

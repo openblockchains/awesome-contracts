@@ -1,13 +1,10 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 1 Payable Function(s)
 function mint(uint64 _count, bytes32[] merkleProof) payable  returns (uint256 _);
 
 // 22 Transact Functions(s)
-function addLayer(uint256 _layerIndex, tuple[] traits);
-function addTrait(uint256 _layerIndex, uint256 _traitIndex, tuple trait);
+function addLayer(uint256 _layerIndex, (string,string,bytes)[] traits /* struct IndelibleERC721A.TraitDTO[] */);
+function addTrait(uint256 _layerIndex, uint256 _traitIndex, (string,string,bytes) trait /* struct IndelibleERC721A.TraitDTO */);
 function approve(address to, uint256 tokenId);
 function reRollDuplicates(uint256[] groupA, uint256[] groupB);
 function renounceOwnership();
@@ -17,7 +14,7 @@ function sealContract();
 function setApprovalForAll(address operator, bool approved);
 function setBackgroundColor(string _backgroundColor);
 function setBaseURI(string _baseURI);
-function setContractData(tuple _contractData);
+function setContractData((string,string,string,string,string,uint256,string) _contractData /* struct IndelibleERC721A.ContractData */);
 function setMaxPerAddress(uint256 _maxPerAddress);
 function setMaxPerAllowList(uint256 _maxPerAllowList);
 function setMerkleRoot(bytes32 newMerkleRoot);
@@ -60,5 +57,5 @@ function tokenURI(uint256 _tokenId) view  returns (string _);
 function tokensAreDuplicates(uint256 tokenId1, uint256 tokenId2) view  returns (bool _);
 function totalSupply() view  returns (uint256 _);
 function traitData(uint256 _layerIndex, uint256 _traitIndex) view  returns (string _);
-function traitDetails(uint256 _layerIndex, uint256 _traitIndex) view  returns (tuple _);
+function traitDetails(uint256 _layerIndex, uint256 _traitIndex) view  returns ((string,string) _ /* struct IndelibleERC721A.Trait */);
 }

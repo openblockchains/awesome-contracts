@@ -1,14 +1,11 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 2 Payable Function(s)
 function airdrop(uint256 count, address recipient) payable  returns (uint256 _);
 function mint(uint256 count, bytes32[] merkleProof) payable  returns (uint256 _);
 
 // 24 Transact Functions(s)
-function addLayer(uint256 layerIndex, tuple[] traits);
-function addTrait(uint256 layerIndex, uint256 traitIndex, tuple trait);
+function addLayer(uint256 layerIndex, (string,string,bytes,bool,bool,uint256)[] traits /* struct Indelible.TraitDTO[] */);
+function addTrait(uint256 layerIndex, uint256 traitIndex, (string,string,bytes,bool,bool,uint256) trait /* struct Indelible.TraitDTO */);
 function approve(address to, uint256 tokenId);
 function reRollDuplicate(uint256 tokenIdA, uint256 tokenIdB);
 function renounceOwnership();
@@ -19,8 +16,8 @@ function setAllowListPrice(uint256 price);
 function setApprovalForAll(address operator, bool approved);
 function setBackgroundColor(string color);
 function setBaseURI(string uri);
-function setContractData(tuple data);
-function setLinkedTraits(tuple[] linkedTraits);
+function setContractData((string,string,string,string,string,uint256,string) data /* struct Indelible.ContractData */);
+function setLinkedTraits((uint256[],uint256[])[] linkedTraits /* struct Indelible.LinkedTraitDTO[] */);
 function setMaxPerAddress(uint256 max);
 function setMaxPerAllowList(uint256 max);
 function setMerkleRoot(bytes32 newMerkleRoot);
@@ -63,6 +60,6 @@ function tokenURI(uint256 tokenId) view  returns (string _);
 function tokensAreDuplicates(uint256 tokenIdA, uint256 tokenIdB) view  returns (bool _);
 function totalSupply() view  returns (uint256 _);
 function traitData(uint256 layerIndex, uint256 traitIndex) view  returns (string _);
-function traitDetails(uint256 layerIndex, uint256 traitIndex) view  returns (tuple _);
+function traitDetails(uint256 layerIndex, uint256 traitIndex) view  returns ((string,string,bool) _ /* struct Indelible.Trait */);
 function withdrawRecipients(uint256 _) view  returns (string name, string imageUrl, address recipientAddress, uint256 percentage);
 }

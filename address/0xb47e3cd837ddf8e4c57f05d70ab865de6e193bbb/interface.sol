@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 2 Payable Function(s)
 function enterBidForPunk(uint256 punkIndex) payable ;
 function buyPunk(uint256 punkIndex) payable ;

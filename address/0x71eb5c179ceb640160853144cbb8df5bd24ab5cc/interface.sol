@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(string uri);
-
+interface  {
 // 1 Payable Function(s)
 function purchase(uint32 count) payable ;
 

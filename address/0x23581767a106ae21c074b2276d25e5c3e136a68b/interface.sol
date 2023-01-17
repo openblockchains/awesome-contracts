@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(string name, string symbol, address _proof, address beneficiary, address royaltyReceiver);
-
+interface  {
 // 1 Payable Function(s)
 function mintPublic(address to, bytes32 nonce, bytes sig) payable ;
 
@@ -23,13 +20,13 @@ function safeTransferFrom(address from, address to, uint256 tokenId, bytes _data
 function safeTransferWhileNesting(address from, address to, uint256 tokenId);
 function setApprovalForAll(address operator, bool approved);
 function setBaseTokenURI(string _baseTokenURI);
-function setBeneficiary(address _beneficiary);
+function setBeneficiary(address _beneficiary /* address payable */);
 function setNestingOpen(bool open);
 function setPROOFMintingOpen(bool open);
 function setPrice(uint256 _price);
-function setRenderingContract(address _contract);
+function setRenderingContract(address _contract /* contract ITokenURIGenerator */);
 function setRoyaltyInfo(address receiver, uint96 feeBasisPoints);
-function setSellerConfig(tuple config);
+function setSellerConfig((uint256,uint256,uint256,uint248,bool,bool,bool) config /* struct Seller.SellerConfig */);
 function toggleNesting(uint256[] tokenIds);
 function transferFrom(address from, address to, uint256 tokenId);
 function transferOwnership(address newOwner);
@@ -41,7 +38,7 @@ function EXPULSION_ROLE() view  returns (bytes32 _);
 function alreadyMinted(address to, bytes32 nonce) view  returns (bool _);
 function balanceOf(address owner) view  returns (uint256 _);
 function baseTokenURI() view  returns (string _);
-function beneficiary() view  returns (address _);
+function beneficiary() view  returns (address _ /* address payable */);
 function cost(uint256 n, uint256 _) view  returns (uint256 _);
 function getApproved(uint256 tokenId) view  returns (address _);
 function getRoleAdmin(bytes32 role) view  returns (bytes32 _);
@@ -56,11 +53,11 @@ function owner() view  returns (address _);
 function ownerOf(uint256 tokenId) view  returns (address _);
 function paused() view  returns (bool _);
 function price() view  returns (uint256 _);
-function proof() view  returns (address _);
+function proof() view  returns (address _ /* contract IERC721 */);
 function proofClaimsRemaining(uint256 tokenId) view  returns (uint256 _);
 function proofMintingOpen() view  returns (bool _);
 function proofPoolRemaining() view  returns (uint256 _);
-function renderingContract() view  returns (address _);
+function renderingContract() view  returns (address _ /* contract ITokenURIGenerator */);
 function royaltyInfo(uint256 _tokenId, uint256 _salePrice) view  returns (address _, uint256 _);
 function sellerConfig() view  returns (uint256 totalInventory, uint256 maxPerAddress, uint256 maxPerTx, uint248 freeQuota, bool reserveFreeQuota, bool lockFreeQuota, bool lockTotalInventory);
 function supportsInterface(bytes4 interfaceId) view  returns (bool _);

@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 5 Transact Functions(s)
 function addAsset(uint8 index, bytes encoding, string name);
 function addComposites(uint64 key1, uint32 value1, uint64 key2, uint32 value2, uint64 key3, uint32 value3, uint64 key4, uint32 value4);

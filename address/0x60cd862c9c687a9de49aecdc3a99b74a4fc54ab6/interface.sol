@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 2 Payable Function(s)
 function acceptAdoptionOffer(bytes5 catId) payable ;
 function makeAdoptionRequest(bytes5 catId) payable ;

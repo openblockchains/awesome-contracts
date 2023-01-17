@@ -4,7 +4,9 @@
 #  to run use
 #    $  ruby sandbox/generate.rb
 
+$LOAD_PATH.unshift( "../blockchain/abiparser/lib" )
 $LOAD_PATH.unshift( "../blockchain/abidoc/lib" )
+$LOAD_PATH.unshift( "../blockchain/natspec/lib" )
 require 'abidoc'
 
 
@@ -16,11 +18,18 @@ paths.each do |path|
 
   abi = ABI.read( path )
 
-  buf = abi.generate_doc( title: "Contract ABI - #{basename}" )
+  natspec =  if File.exist?( "./address/#{basename}/contract.md" )
+                Natspec.read( "./address/#{basename}/contract.md" )
+             else
+               nil
+             end
+
+  buf = abi.generate_doc( title: "Contract ABI - #{basename}",
+                          natspec: natspec )
   puts buf
   write_text( "./address/#{basename}/README.md", buf )
 
-  buf =  abi.generate_interface    # solidity interface declarations (source code)
+  buf =  abi.generate_interface( name: '' )    # solidity interface declarations (source code)
   write_text( "./address/#{basename}/interface.sol", buf )
 end
 

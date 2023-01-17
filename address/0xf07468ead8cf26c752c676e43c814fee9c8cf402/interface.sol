@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 2 Payable Function(s)
 function mint(uint256 _numToMint) payable ;
 function withdrawMoney() payable ;

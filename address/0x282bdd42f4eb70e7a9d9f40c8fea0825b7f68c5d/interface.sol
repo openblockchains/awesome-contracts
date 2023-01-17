@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 1 Payable Function(s)
 function wrap(uint256 _punkId) payable ;
 
@@ -24,7 +21,7 @@ function isApprovedForAll(address owner, address operator) view  returns (bool _
 function name() view  returns (string _);
 function owner() view  returns (address _);
 function ownerOf(uint256 tokenId) view  returns (address _);
-function punkAddress() view  returns (address _);
+function punkAddress() view  returns (address _ /* address payable */);
 function supportsInterface(bytes4 interfaceId) view  returns (bool _);
 function symbol() view  returns (string _);
 function tokenURI(uint256 tokenId) view  returns (string _);

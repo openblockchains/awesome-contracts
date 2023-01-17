@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(string _name, string _symbol, address _assetsAddress, address _withdrawAddress, address _ensReverseAddress);
-
+interface  {
 // 2 Payable Function(s)
 function claim() payable ;
 function claimOther(address _signer, bytes _signature) payable ;
@@ -17,7 +14,7 @@ function withdraw();
 // 20 Query Functions(s)
 function _getAttributes(address _address) view  returns (uint256[] _);
 function _tokenURI(address _address) view  returns (string _);
-function assets() view  returns (address _);
+function assets() view  returns (address _ /* contract ISyntheticPunksAssets */);
 function balanceOf(address _) view  returns (uint256 _);
 function claimMessage() view  returns (string _);
 function claimPrice() view  returns (uint256 _);
@@ -27,7 +24,7 @@ function getApproved(uint256 _) view  returns (address _);
 function getAttribute(uint256 id, uint256 _attributeId) view  returns (uint256 _);
 function getAttributeCategories(uint256 id) view  returns (uint256[] _);
 function getAttributes(uint256 id) view  returns (uint256[] _);
-function getGender(uint256 id) view  returns (uint8 _);
+function getGender(uint256 id) view  returns (uint8 _ /* enum SyntheticPunks.Gender */);
 function isApprovedForAll(address _, address _) view  returns (bool _);
 function name() view  returns (string _);
 function ownerOf(uint256 _) view  returns (address _);

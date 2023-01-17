@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(string name_, string symbol_);
-
+interface  {
 // 1 Payable Function(s)
 function mint(address to, uint256 quantity) payable ;
 

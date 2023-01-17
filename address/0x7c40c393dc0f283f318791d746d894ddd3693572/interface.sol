@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor();
-
+interface  {
 // 9 Transact Functions(s)
 function approve(address to, uint256 tokenId);
 function renounceOwnership();
@@ -16,7 +13,7 @@ function wrap(bytes5 catId);
 // 17 Query Functions(s)
 function _baseURI() view  returns (string _);
 function _catIDToTokenID(bytes5 _) view  returns (uint256 _);
-function _moonCats() view  returns (address _);
+function _moonCats() view  returns (address _ /* contract MoonCatsRescue */);
 function _owner() view  returns (address _);
 function _tokenIDToCatID(uint256 _) view  returns (bytes5 _);
 function balanceOf(address owner) view  returns (uint256 _);

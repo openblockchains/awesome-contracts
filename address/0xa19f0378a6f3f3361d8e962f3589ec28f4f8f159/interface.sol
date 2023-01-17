@@ -1,7 +1,4 @@
-interface  name_here {
-// Constructor
-constructor(address baseFactory, string customBaseURI_);
-
+interface  {
 // 1 Payable Function(s)
 function mint(uint256 count) payable ;
 

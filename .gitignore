@@ -1,9 +1,15 @@
 # do NOT check in dev/test enviroment variables in .env (dot env files)
 .env
-
+.env.yaml
+.env.yml
 
 ## ignore all tmp directoreis
 tmp/
 tmp2/
 tmp3/
+
+######
+#  igonore contracts abibase contracts to process for now too - why? why not?
+contracts.csv
+contractdetails.csv
 

@@ -1,3 +1,24 @@
+Contract outline:
+
+```
+contract Indelible is ERC721A, ReentrancyGuard, Ownable
+library DynamicBuffer
+library HelperLib
+library SSTORE2
+library Bytecode
+abstract contract Ownable is Context
+abstract contract ReentrancyGuard
+library Address
+library Base64
+abstract contract Context
+library MerkleProof
+interface ERC721A__IERC721Receiver
+contract ERC721A is IERC721A
+interface IERC721A
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x82e8129dafb2d5f06aeded321fb04628f95ef654
 
 

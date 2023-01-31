@@ -1,3 +1,33 @@
+Contract outline:
+
+```
+contract MoonCatAcclimator is ERC721, ERC721Holder, Ownable, Pausable, IERC998ERC721TopDown, IERC998ERC721TopDownEnumerable
+contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable
+contract MoonCatOrderLookup is Ownable
+interface IERC998ERC721TopDown
+interface IERC998ERC721TopDownEnumerable
+interface IERC998ERC721BottomUp
+interface MoonCatRescue
+interface MoonCatsWrapped
+abstract contract Context
+abstract contract Ownable is Context
+abstract contract Pausable is Context
+interface IERC721 is IERC165
+interface IERC721Metadata is IERC721
+interface IERC721Enumerable is IERC721
+interface IERC721Receiver
+contract ERC721Holder is IERC721Receiver
+abstract contract ERC165 is IERC165
+interface IERC165
+library SafeMath
+library Address
+library EnumerableSet
+library EnumerableMap
+library Strings
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0xc3f733ca98e0dad0386979eb96fb1722a1a05e69
 
 

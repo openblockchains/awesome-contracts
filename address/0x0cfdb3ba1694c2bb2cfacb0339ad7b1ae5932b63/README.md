@@ -1,3 +1,19 @@
+Contract outline:
+
+```
+contract NounsDescriptor is INounsDescriptor, Ownable
+abstract contract Ownable is Context
+library Strings
+interface INounsDescriptor
+interface INounsSeeder
+library NFTDescriptor
+library MultiPartRLEToSVG
+abstract contract Context
+library Base64
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63
 
 - pragma:  solidity ^0.8.6

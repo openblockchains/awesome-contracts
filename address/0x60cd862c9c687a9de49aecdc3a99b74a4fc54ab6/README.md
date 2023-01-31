@@ -1,3 +1,11 @@
+Contract outline:
+
+```
+contract MoonCatRescue
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6
 
 

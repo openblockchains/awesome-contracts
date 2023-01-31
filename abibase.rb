@@ -4,6 +4,7 @@ $LOAD_PATH.unshift( "../blockchain/abiparser/lib" )
 $LOAD_PATH.unshift( "../blockchain/abidoc/lib" )
 $LOAD_PATH.unshift( "../blockchain/natspec/lib" )
 $LOAD_PATH.unshift( "../blockchain/abibase/lib" )
+$LOAD_PATH.unshift( "../blockchain/solidity/lib" )
 
 
 require 'abibase'

@@ -1,3 +1,28 @@
+Contract outline:
+
+```
+contract Indelible is ERC721A, DefaultOperatorFilterer, ReentrancyGuard, Ownable
+abstract contract DefaultOperatorFilterer is OperatorFilterer
+library DynamicBuffer
+library HelperLib
+interface IOperatorFilterRegistry
+abstract contract OperatorFilterer
+library SSTORE2
+library Bytecode
+abstract contract Ownable is Context
+abstract contract ReentrancyGuard
+library Address
+abstract contract Context
+library MerkleProof
+interface ERC721A__IERC721Receiver
+contract ERC721A is IERC721A
+interface IERC721A
+library Base64
+library LibPRNG
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x0e10e5e978ba4d1af92eb554cd730c9b97f4e571
 
 

@@ -1,3 +1,23 @@
+Contract outline:
+
+```
+contract NounsDescriptorV2 is INounsDescriptorV2, Ownable
+abstract contract Ownable is Context
+library Strings
+interface INounsDescriptorV2 is INounsDescriptorMinimal
+interface INounsSeeder
+library NFTDescriptorV2
+interface ISVGRenderer
+interface INounsArt
+interface IInflator
+abstract contract Context
+interface INounsDescriptorMinimal
+library Inflate
+library Base64
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x6229c811d04501523c6058bfaac29c91bb586268
 
 

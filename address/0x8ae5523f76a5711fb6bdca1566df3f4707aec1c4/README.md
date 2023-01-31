@@ -1,3 +1,23 @@
+Contract outline:
+
+```
+interface IOnChainKevin
+contract IndelibleERC721A is ERC721A, ReentrancyGuard, Ownable
+library DynamicBuffer
+library HelperLib
+library SSTORE2
+library Bytecode
+abstract contract Ownable is Context
+abstract contract ReentrancyGuard
+library Base64
+abstract contract Context
+interface ERC721A__IERC721Receiver
+contract ERC721A is IERC721A
+interface IERC721A
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x8ae5523f76a5711fb6bdca1566df3f4707aec1c4
 
 

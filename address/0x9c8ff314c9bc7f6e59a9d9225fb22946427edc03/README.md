@@ -1,3 +1,28 @@
+Contract outline:
+
+```
+contract NounsToken is INounsToken, Ownable, ERC721Checkpointable
+abstract contract Ownable is Context
+abstract contract ERC721Checkpointable is ERC721Enumerable
+interface INounsDescriptor
+interface INounsSeeder
+interface INounsToken is IERC721
+contract ERC721 is Context, ERC165, IERC721, IERC721Metadata
+interface IERC721 is IERC165
+interface IProxyRegistry
+abstract contract Context
+abstract contract ERC721Enumerable is ERC721, IERC721Enumerable
+interface IERC721Enumerable is IERC721
+interface IERC721Receiver
+interface IERC721Metadata is IERC721
+library Address
+library Strings
+abstract contract ERC165 is IERC165
+interface IERC165
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03
 
 - pragma: solidity ^0.8.6

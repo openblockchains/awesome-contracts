@@ -1,3 +1,24 @@
+Contract outline:
+
+```
+contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, ReentrancyGuardUpgradeable, OwnableUpgradeable
+abstract contract PausableUpgradeable is Initializable, ContextUpgradeable
+abstract contract ReentrancyGuardUpgradeable is Initializable
+abstract contract OwnableUpgradeable is Initializable, ContextUpgradeable
+interface IERC20
+interface INounsAuctionHouse
+interface INounsToken is IERC721
+interface IWETH
+abstract contract ContextUpgradeable is Initializable
+abstract contract Initializable
+interface IERC721 is IERC165
+interface INounsDescriptor
+interface INounsSeeder
+interface IERC165
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0xf15a943787014461d94da08ad4040f79cd7c124e
 
 

@@ -1,3 +1,26 @@
+Contract outline:
+
+```
+library Counters
+library Strings
+library EnumerableMap
+library EnumerableSet
+library Address
+library SafeMath
+interface IERC165
+abstract contract ERC165 is IERC165
+interface IERC721Receiver
+interface IERC721 is IERC165
+interface IERC721Enumerable is IERC721
+interface IERC721Metadata is IERC721
+abstract contract Context
+contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable
+interface MoonCatsRescue
+contract MoonCatsWrapped is ERC721
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x7c40c393dc0f283f318791d746d894ddd3693572
 
 

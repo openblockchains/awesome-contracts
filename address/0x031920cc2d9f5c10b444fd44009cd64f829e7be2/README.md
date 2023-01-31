@@ -1,3 +1,28 @@
+Contract outline:
+
+```
+contract CryptoZunks is Ownable, ERC721Enumerable, ERC721Burnable, ReentrancyGuard
+abstract contract Ownable is Context
+abstract contract ReentrancyGuard
+contract ERC721 is Context, ERC165, IERC721, IERC721Metadata
+abstract contract ERC721Burnable is Context, ERC721
+abstract contract ERC721Enumerable is ERC721, IERC721Enumerable
+library Strings
+library EnumerableMap
+library console
+abstract contract Context
+interface IERC721 is IERC165
+interface IERC721Receiver
+interface IERC721Metadata is IERC721
+library Address
+abstract contract ERC165 is IERC165
+interface IERC165
+interface IERC721Enumerable is IERC721
+library EnumerableSet
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x031920cc2d9f5c10b444fd44009cd64f829e7be2
 
 

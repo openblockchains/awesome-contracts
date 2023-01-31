@@ -1,3 +1,13 @@
+Contract outline:
+
+```
+contract PunkBlocks
+interface IAttrParser
+library Base64
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x58e90596c2065befd3060767736c829c18f3474c
 
 - Author: tycoon.eth, thanks to @geraldb & @samwilsn on Github for inspiration!

@@ -1,3 +1,49 @@
+Contract outline:
+
+```
+interface ITokenURIGenerator
+contract Moonbirds is ERC721ACommon, BaseTokenURI, FixedPriceSeller, SignerManager, ERC2981, AccessControlEnumerable
+contract) external onlyOwner
+contract; } /** @notice If renderingContract is set then returns its tokenURI(tokenId) return value, otherwise returns the standard baseTokenURI + tokenId. */ function tokenURI(uint256 tokenId) public view override returns (string memory)
+contract ERC721A is Context, ERC165, IERC721, IERC721Metadata
+library EnumerableSet
+library BitMaps
+library Math
+interface IERC165
+abstract contract ERC165 is IERC165
+library ECDSA
+library Strings
+abstract contract Context
+library Address
+abstract contract ERC2981 is IERC2981, ERC165
+interface IERC721Metadata is IERC721
+interface IERC721Receiver
+interface IERC721 is IERC165
+abstract contract ReentrancyGuard
+abstract contract Pausable is Context
+interface IERC2981 is IERC165
+abstract contract Ownable is Context
+interface IAccessControlEnumerable is IAccessControl
+interface IAccessControl
+abstract contract AccessControlEnumerable is IAccessControlEnumerable, AccessControl
+abstract contract AccessControl is Context, IAccessControl, ERC165
+contract OwnerPausable is Ownable, Pausable
+library Monotonic
+contract ProxyRegistry
+contract OwnableDelegateProxy
+library OpenSeaGasFreeListing
+abstract contract Seller is OwnerPausable, ReentrancyGuard
+abstract contract FixedPriceSeller is Seller
+library ERC721Redeemer
+abstract contract ERC721APreApproval is ERC721A
+contract ERC721ACommon is ERC721APreApproval, OwnerPausable
+contract BaseTokenURI is Ownable
+contract SignerManager is Ownable
+library SignatureChecker
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x23581767a106ae21c074b2276d25e5c3e136a68b
 
 

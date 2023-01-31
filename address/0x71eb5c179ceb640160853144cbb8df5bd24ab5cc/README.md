@@ -1,3 +1,20 @@
+Contract outline:
+
+```
+abstract contract Context
+abstract contract Ownable is Context
+library Address
+interface IERC165
+abstract contract ERC165 is IERC165
+interface IERC1155Receiver is IERC165
+interface IERC1155 is IERC165
+interface IERC1155MetadataURI is IERC1155
+contract ERC1155 is Context, ERC165, IERC1155, IERC1155MetadataURI
+contract ExpansionPhunks is ERC1155, Ownable
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0x71eb5c179ceb640160853144cbb8df5bd24ab5cc
 
 

@@ -1,3 +1,13 @@
+Contract outline:
+
+```
+contract NounsSeeder is INounsSeeder
+interface INounsSeeder
+interface INounsDescriptor
+```
+(source: [contract.sol](contract.sol))
+
+
 # Contract ABI - 0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515
 
 - pragma: solidity ^0.8.6

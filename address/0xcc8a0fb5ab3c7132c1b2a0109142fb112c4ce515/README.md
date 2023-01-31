@@ -1,14 +1,19 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract NounsSeeder is INounsSeeder
 interface INounsSeeder
 interface INounsDescriptor
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515
+Created on Ethereum Mainnet:
+- Block 12985434 @ 2021-08-08 16:01:13 UTC (1628438473)
+- Tx Id 0xb6a8df13518c626e85b3ad796a01a407dcf2f4f44953e906d9f4719e5a89fe54
+- By 0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658
+
+
+# nouns seeder - Contract ABI @ 0xcc8a0fb5ab3c7132c1b2a0109142fb112c4ce515
 
 - pragma: solidity ^0.8.6
 

@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 abstract contract Context
@@ -12,10 +12,15 @@ interface IERC1155MetadataURI is IERC1155
 contract ERC1155 is Context, ERC165, IERC1155, IERC1155MetadataURI
 contract ExpansionPhunks is ERC1155, Ownable
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x71eb5c179ceb640160853144cbb8df5bd24ab5cc
+Created on Ethereum Mainnet:
+- Block 13906069 @ 2021-12-30 10:14:39 UTC (1640859279)
+- Tx Id 0xb89a15ae987bacfb62baed9bcc2065644617d25fcb8498b1ba8f4fb80fdd8c8c
+- By 0xe51c910738a91ed6c966f6d0d6c25289d4292613
+
+
+# xphunks | expansion phunks - Contract ABI @ 0x71eb5c179ceb640160853144cbb8df5bd24ab5cc
 
 
 

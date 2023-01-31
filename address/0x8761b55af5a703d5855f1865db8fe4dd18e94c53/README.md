@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract ERC721 is Context, ERC165, IERC721, IERC721Metadata
@@ -15,10 +15,15 @@ abstract contract IENSReverseRecords
 interface INounsDescriptor
 interface INounsSeeder
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x8761b55af5a703d5855f1865db8fe4dd18e94c53
+Created on Ethereum Mainnet:
+- Block 15198659 @ 2022-07-23 11:31:20 UTC (1658575880)
+- Tx Id 0xd730f037162e1c9602d2881ceb4600b5d595e0032b21a9e77157e668f35e28be
+- By 0x970a2bafd2bea9f62592e9b036bf07c287078151
+
+
+# synth nouns | synthetic nouns - Contract ABI @ 0x8761b55af5a703d5855f1865db8fe4dd18e94c53
 
 
 

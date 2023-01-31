@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract V3Phunks is ERC721Delegated, ReentrancyGuard
@@ -23,10 +23,15 @@ abstract contract ERC165Upgradeable is Initializable, IERC165Upgradeable
 abstract contract Initializable
 interface IERC165Upgradeable
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xa19f0378a6f3f3361d8e962f3589ec28f4f8f159
+Created on Ethereum Mainnet:
+- Block 14132029 @ 2022-02-03 08:49:52 UTC (1643878192)
+- Tx Id 0x66740bf047483e9b489c2837146260102b2b9537236dfd2d72caee2f45539a05
+- By 0xd59d10f5a49d6c8ec097e007a1782087cfb4b988
+
+
+# phunks v3 - Contract ABI @ 0xa19f0378a6f3f3361d8e962f3589ec28f4f8f159
 
 
 

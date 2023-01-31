@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 abstract contract Ownable is Context
@@ -17,10 +17,15 @@ interface IERC165
 library SafeMath
 contract ExpansionPunks is ERC721, ERC721Enumerable, Ownable, ReentrancyGuard
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x0d0167a823c6619d430b1a96ad85b888bcf97c37
+Created on Ethereum Mainnet:
+- Block 13026517 @ 2021-08-15 00:13:20 UTC (1628986400)
+- Tx Id 0xc9305055eccbe710c0b2f54dc6ff7560fc2e78bd2883ffc0acb0eff705edd86e
+- By 0x930b9cc24c46c341803e5fefb3590bdb4ff576a6
+
+
+# xpunks | expansion punks - Contract ABI @ 0x0d0167a823c6619d430b1a96ad85b888bcf97c37
 
 
 

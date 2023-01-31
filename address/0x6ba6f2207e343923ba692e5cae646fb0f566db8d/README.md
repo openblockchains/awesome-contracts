@@ -1,12 +1,17 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract CryptoPunks
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x6ba6f2207e343923ba692e5cae646fb0f566db8d
+Created on Ethereum Mainnet:
+- Block 3842489 @ 2017-06-09 00:22:50 UTC (1496967770)
+- Tx Id 0x9fef127966d59d440c70f28c8e6f1eac3af0d91f94384e207deb3c98ff9c3088
+- By 0xc352b534e8b987e036a93539fd6897f53488e56a
+
+
+# punks v1 | crypto punks v1 - Contract ABI @ 0x6ba6f2207e343923ba692e5cae646fb0f566db8d
 
 - Pragma:  solidity ^0.4.8
 

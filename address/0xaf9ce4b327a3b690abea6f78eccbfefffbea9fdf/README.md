@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 abstract contract ERC721
@@ -7,10 +7,15 @@ abstract contract ReverseRecords
 contract SyntheticPunks is ERC721
 interface ISyntheticPunksAssets
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xaf9ce4b327a3b690abea6f78eccbfefffbea9fdf
+Created on Ethereum Mainnet:
+- Block 14199397 @ 2022-02-13 18:27:43 UTC (1644776863)
+- Tx Id 0xfd08b691d12ff2cf05e7edccd2a311e124bffdfeb528d666c98221c93dd3d648
+- By 0x3ce6543978f37315e047236139817c1f446300e5
+
+
+# synth punks | synthetic punks - Contract ABI @ 0xaf9ce4b327a3b690abea6f78eccbfefffbea9fdf
 
 
 

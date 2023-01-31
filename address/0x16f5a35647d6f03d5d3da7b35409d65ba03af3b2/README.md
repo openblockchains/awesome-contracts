@@ -1,12 +1,17 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract CryptopunksData
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x16f5a35647d6f03d5d3da7b35409d65ba03af3b2
+Created on Ethereum Mainnet:
+- Block 13045935 @ 2021-08-18 00:10:24 UTC (1629245424)
+- Tx Id 0xc82aa34310c310463eb9fe7835471f7317ac4b5008034a78c93b2a8a237be228
+- By 0xc352b534e8b987e036a93539fd6897f53488e56a
+
+
+# punks data | crypto punks data - Contract ABI @ 0x16f5a35647d6f03d5d3da7b35409d65ba03af3b2
 
 
 

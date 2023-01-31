@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 library Counters
@@ -18,10 +18,15 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable
 interface MoonCatsRescue
 contract MoonCatsWrapped is ERC721
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x7c40c393dc0f283f318791d746d894ddd3693572
+Created on Ethereum Mainnet:
+- Block 12025810 @ 2021-03-12 20:20:10 UTC (1615580410)
+- Tx Id 0xb27719066844420204ba6b5ce4ce2d2fdae1262270a8b1a211e96cda16636818
+- By 0xb0215fcee8e046a8e9fca14ab79fa6ed38dcb59b
+
+
+# mooncats wrapped - Contract ABI @ 0x7c40c393dc0f283f318791d746d894ddd3693572
 
 
 

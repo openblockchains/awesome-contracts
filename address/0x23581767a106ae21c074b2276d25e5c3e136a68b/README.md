@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 interface ITokenURIGenerator
@@ -41,10 +41,15 @@ contract BaseTokenURI is Ownable
 contract SignerManager is Ownable
 library SignatureChecker
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x23581767a106ae21c074b2276d25e5c3e136a68b
+Created on Ethereum Mainnet:
+- Block 14591056 @ 2022-04-15 16:38:30 UTC (1650040710)
+- Tx Id 0xd4547dc336dd4a0655f11267537964d7641f115ef3d5440d71514e3efba9d210
+- By 0x6c8984baf566db08675310b122bf0be9ea269eca
+
+
+# moonbirds - Contract ABI @ 0x23581767a106ae21c074b2276d25e5c3e136a68b
 
 
 

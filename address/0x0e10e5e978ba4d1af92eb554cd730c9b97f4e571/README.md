@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract Indelible is ERC721A, DefaultOperatorFilterer, ReentrancyGuard, Ownable
@@ -20,10 +20,15 @@ interface IERC721A
 library Base64
 library LibPRNG
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x0e10e5e978ba4d1af92eb554cd730c9b97f4e571
+Created on Ethereum Mainnet:
+- Block 16402998 @ 2023-01-14 05:37:35 UTC (1673674655)
+- Tx Id 0x267f695907de3eff5dd959baf0eaae09664712b8c6c0af912819ceeff3514c51
+- By 0x240b4b8bf7b50806c1823de45f6fb85441867d01
+
+
+# pepe blocks - Contract ABI @ 0x0e10e5e978ba4d1af92eb554cd730c9b97f4e571
 
 
 

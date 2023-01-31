@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract V3Punks is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable
@@ -12,10 +12,15 @@ library Strings
 abstract contract ERC165 is IERC165
 interface IERC165
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xd33c078c2486b7be0f7b4dda9b14f35163b949e0
+Created on Ethereum Mainnet:
+- Block 14127834 @ 2022-02-02 16:57:59 UTC (1643821079)
+- Tx Id 0x7ee2156cea4a19887bc93ecfd2ee27a6b2d8c412a888a4d25b138b86082a1712
+- By 0x07558ea3218e62c00090003f420bd8272456ecc8
+
+
+# punks v3 - Contract ABI @ 0xd33c078c2486b7be0f7b4dda9b14f35163b949e0
 
 
 

@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract CryptoPhunksV2 is Ownable, ERC721Enumerable, ReentrancyGuard
@@ -17,10 +17,15 @@ abstract contract ERC165 is IERC165
 interface IERC165
 interface IERC721Enumerable is IERC721
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xf07468ead8cf26c752c676e43c814fee9c8cf402
+Created on Ethereum Mainnet:
+- Block 12674389 @ 2021-06-21 00:07:08 UTC (1624234028)
+- Tx Id 0x994a30d91c09ecf14aef8fe42140742584762d3522a2016bd386361e6d76d4e2
+- By 0xdd01e9be0f8ac1be72f57a29e2e960777ef2d152
+
+
+# phunks v2 | phunks - Contract ABI @ 0xf07468ead8cf26c752c676e43c814fee9c8cf402
 
 
 

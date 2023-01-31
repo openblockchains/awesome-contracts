@@ -1,14 +1,19 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract CryptoPunksTokenUri
 interface ICryptoPunksData
 library Base64
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xd8e916c3016be144eb2907778cf972c4b01645fc
+Created on Ethereum Mainnet:
+- Block 16111829 @ 2022-12-04 13:45:59 UTC (1670161559)
+- Tx Id 0x0d073c189b337ced2275e2f717b6ddd596e306de7e594588f12132d7fefb33ac
+- By 0xc43473fa66237e9af3b2d886ee1205b81b14b2c8
+
+
+# punks meta | punks token uri - Contract ABI @ 0xd8e916c3016be144eb2907778cf972c4b01645fc
 
 - Author: 0xTycoon. Includes Base64 functionality from OpenZeppelin and builds  on top of the on-chain Punks data contact deployed by Larva Labs  as described here https://www.larvalabs.com/blog/2021-8-18-18-0/on-chain-cryptopunks
 - Version: 0.0.2

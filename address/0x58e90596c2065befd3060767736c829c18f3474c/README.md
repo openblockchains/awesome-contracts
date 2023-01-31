@@ -1,14 +1,19 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract PunkBlocks
 interface IAttrParser
 library Base64
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x58e90596c2065befd3060767736c829c18f3474c
+Created on Ethereum Mainnet:
+- Block 16150497 @ 2022-12-09 23:42:59 UTC (1670629379)
+- Tx Id 0x92d3a69c4ac96ddd432f1c13e5dbb8bf3d7782489e7ee3538e78a25f2480c34f
+- By 0xc43473fa66237e9af3b2d886ee1205b81b14b2c8
+
+
+# punk blocks - Contract ABI @ 0x58e90596c2065befd3060767736c829c18f3474c
 
 - Author: tycoon.eth, thanks to @geraldb & @samwilsn on Github for inspiration!
 - Version: v0.0.2

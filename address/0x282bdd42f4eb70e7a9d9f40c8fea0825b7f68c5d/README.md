@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract PunksV1Wrapper is Ownable, ERC721
@@ -16,10 +16,15 @@ interface IERC721Receiver
 interface IERC721 is IERC165
 interface IERC165
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d
+Created on Ethereum Mainnet:
+- Block 14022431 @ 2022-01-17 10:15:07 UTC (1642414507)
+- Tx Id 0xf7132661519e08b5804c22f0d0846146c645229dd803f85d81a417bce44992da
+- By 0xf40fd88ac59a206d009a07f8c09828a01e2acc0d
+
+
+# punks v1 wrapped ii - Contract ABI @ 0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d
 
 
 

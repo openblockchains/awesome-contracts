@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 interface IOnChainKevin
@@ -16,10 +16,15 @@ interface ERC721A__IERC721Receiver
 contract ERC721A is IERC721A
 interface IERC721A
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xe9b91d537c3aa5a3fa87275fbd2e4feaaed69bd0
+Created on Ethereum Mainnet:
+- Block 15161039 @ 2022-07-17 15:49:16 UTC (1658072956)
+- Tx Id 0xf6cca6972347e21871d55febe8f091e1d9d7584919826bce9d5ced237e8dd937
+- By 0xdf12dba344515c98f866af1436245438cd7d8566
+
+
+# marcs | crypto marcs - Contract ABI @ 0xe9b91d537c3aa5a3fa87275fbd2e4feaaed69bd0
 
 
 

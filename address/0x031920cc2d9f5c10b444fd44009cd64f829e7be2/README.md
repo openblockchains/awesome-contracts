@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract CryptoZunks is Ownable, ERC721Enumerable, ERC721Burnable, ReentrancyGuard
@@ -20,10 +20,15 @@ interface IERC165
 interface IERC721Enumerable is IERC721
 library EnumerableSet
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x031920cc2d9f5c10b444fd44009cd64f829e7be2
+Created on Ethereum Mainnet:
+- Block 12975638 @ 2021-08-07 04:01:17 UTC (1628308877)
+- Tx Id 0x7e7c76df42ac448443e5b6dfadb35d64ebd44d03abf8cc04536ef43dca54f27a
+- By 0x3549d95f144c0cc9eb5fc29fc8b6881a84d51536
+
+
+# zunks - Contract ABI @ 0x031920cc2d9f5c10b444fd44009cd64f829e7be2
 
 
 

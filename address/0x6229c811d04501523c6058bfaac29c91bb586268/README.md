@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract NounsDescriptorV2 is INounsDescriptorV2, Ownable
@@ -15,10 +15,15 @@ interface INounsDescriptorMinimal
 library Inflate
 library Base64
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x6229c811d04501523c6058bfaac29c91bb586268
+Created on Ethereum Mainnet:
+- Block 15141356 @ 2022-07-14 14:40:29 UTC (1657809629)
+- Tx Id 0x2d1785073b0eac3fefc126badf6cfee3128639a35e439dcee7255f2397e9d531
+- By 0xac56e6156c9c0c56b6d9a4e8388799f25d7feb86
+
+
+# nouns descriptor v2 - Contract ABI @ 0x6229c811d04501523c6058bfaac29c91bb586268
 
 
 

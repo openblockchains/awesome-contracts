@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract Indelible is ERC721A, DefaultOperatorFilterer, ReentrancyGuard, Ownable
@@ -19,10 +19,15 @@ interface ERC721A__IERC721Receiver
 contract ERC721A is IERC721A
 interface IERC721A
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x7c2af580f37c23270dd7c52765073c1601c4ad33
+Created on Ethereum Mainnet:
+- Block 16047555 @ 2022-11-25 14:19:35 UTC (1669385975)
+- Tx Id 0x236e52c4359b5e743cf98a1bde9d90ae4d2f7bb34c9e1371e85ff2a43d719e2f
+- By 0xa6933faa928ab80ba00acc4826f536e236b038ae
+
+
+# dos phunks - Contract ABI @ 0x7c2af580f37c23270dd7c52765073c1601c4ad33
 
 
 

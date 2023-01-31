@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract NounsDescriptor is INounsDescriptor, Ownable
@@ -11,10 +11,15 @@ library MultiPartRLEToSVG
 abstract contract Context
 library Base64
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63
+Created on Ethereum Mainnet:
+- Block 12985431 @ 2021-08-08 16:00:38 UTC (1628438438)
+- Tx Id 0x960163ec070b46543c027eb989be368c0f2a75feca499d4c9d58208e61913818
+- By 0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658
+
+
+# nouns descriptor - Contract ABI @ 0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63
 
 - pragma:  solidity ^0.8.6
 

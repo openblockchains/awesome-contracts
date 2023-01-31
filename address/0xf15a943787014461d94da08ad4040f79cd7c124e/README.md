@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract NounsAuctionHouse is INounsAuctionHouse, PausableUpgradeable, ReentrancyGuardUpgradeable, OwnableUpgradeable
@@ -16,10 +16,15 @@ interface INounsDescriptor
 interface INounsSeeder
 interface IERC165
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0xf15a943787014461d94da08ad4040f79cd7c124e
+Created on Ethereum Mainnet:
+- Block 12985445 @ 2021-08-08 16:03:33 UTC (1628438613)
+- Tx Id 0xa2f3f5be9be42806b10b4897415a8da717d72ea01f2b96cb5d1f04b65844825a
+- By 0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658
+
+
+# nouns auction house - Contract ABI @ 0xf15a943787014461d94da08ad4040f79cd7c124e
 
 
 

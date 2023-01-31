@@ -1,4 +1,4 @@
-Contract outline:
+Contract outline - [contract.sol](contract.sol):
 
 ```
 contract NounsToken is INounsToken, Ownable, ERC721Checkpointable
@@ -20,10 +20,15 @@ library Strings
 abstract contract ERC165 is IERC165
 interface IERC165
 ```
-(source: [contract.sol](contract.sol))
 
 
-# Contract ABI - 0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03
+Created on Ethereum Mainnet:
+- Block 12985438 @ 2021-08-08 16:02:23 UTC (1628438543)
+- Tx Id 0xe8aeb9055e334dc12e4e7cf16a7b630b1a070727c380caf65a03feccc26e0be3
+- By 0xfd16f84e1f9bb5ec33b52d0133d61f7d20699658
+
+
+# nouns token | nouns - Contract ABI @ 0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03
 
 - pragma: solidity ^0.8.6
 
